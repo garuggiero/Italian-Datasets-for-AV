@@ -23,7 +23,7 @@ The data from their website was used by permission of the data creators, and was
 
 ## Structure
 
-The goal of the Authorship Verification task is to determine whether or not two documents are written by the same author. Therefore, the data is structured in problems (instances) made of two texts (known and unknown text) of equal length. 
+The goal of the Authorship Verification task is to determine whether or not two documents are written by the same author. Therefore, the data is structured in problems (instances) made of two texts (*known* and *unknown* text) of equal length. 
 
 The structure of the ForumFree and Diaries datasets is exactly the same. While ForumFree is already available in the AV format, the Diaries dataset needs to be compiled. Further information about formatting this dataset is offered in the next section. 
 
