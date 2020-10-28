@@ -37,7 +37,7 @@ The folder names contain information about the type of data contained in them:
 
 - *400*, *1000*, *2000* or *3000* according to the number of words per problem
 
-- *mixed*, *females* or *males* refers to the gender of the authors of known and unknown text
+- *mixed*, *females* or *males* refers to the gender of the authors of known and unknown text: if *mixed*, the authors can be male and females, if *females* both the authors are female, if *males* both the authors are male
 
 - *_downsized*: if added to the folder name, it means that the folders containing data from the same genre, topic and within the same authors' gender subset, correspond to data from the same pool of authors. For example, blogs_test_medicina10_400_mixed_downsized, blogs_test_medicina10_1000_mixed_downsized, blogs_test_medicina10_2000_mixed_downsized contain texts from the same authors as in blogs_test_medicina10_3000_mixed. The only factor changing is thus the number of words contained in the single documents.
 
