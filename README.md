@@ -23,7 +23,7 @@ The Diaries dataset is a collection of diary fragments included in the project [
 The data from their website was used by permission of the data creators, and was automatically collected using software written for the purpose. We are happy to provide access to the scraping software, but permission from the data creators needs to be sought first. However, we provide here the code to reformat the data into AV problems, contained in `make_Diaries_dataset.py`
 
 ```
-Usage: python3 make_Diaries:ì_dataset.py --base_path BASE PATH --n N --gender GENDER --entities ENTITIES --downsize DOWNSIZE
+Usage: python3 make_Diaries_dataset.py --base_path BASE PATH --n N --gender GENDER --entities ENTITIES --downsize DOWNSIZE
 
 --base_path BASE PATH  .tsv file with the diaries corpus
 --n N                  number of words to be considered per each author/instance
