@@ -46,7 +46,7 @@ Each folder contains a certain number of AV problems, labelled with a problem ID
 Since we experimented with texts of different length, the known and unknown documents can be made of 200, 500, 1 000 and 1 500 words each. The text is already tokenized. 
 
 Moreover, each folder contains 3 files:
-- trutx.txt, in which we store the gold labels (Y o N) associated to each problem ID:
+- truth.txt, in which we store the gold labels (Y o N) associated to each problem ID:
 
          ```
          IT001 N
