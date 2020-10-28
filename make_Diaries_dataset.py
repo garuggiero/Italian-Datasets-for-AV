@@ -1,3 +1,8 @@
+# File name: make_Diaries_dataset.py
+# Description: this file reformats corpus into an AV dataset
+# Authors: Gaetana Ruggiero
+# Date: 31-08-2020
+
 import os
 import re
 import csv
