@@ -16,7 +16,7 @@ It covers two topics, Medicina Estetica (Aesthetic Medicine) and Programmi Tv (T
 
 ## Diaries 
 
-The Diaries dataset is a collection of diary fragments included in the project [Italiani all’estero: i diari raccontano (Italians abroad: the diaries narrate)] (https://www.idiariraccontano.org). These fragments are the diaries, letters and memoirs of Italian people who lived abroad between the beginning of the 19th century and the present day. 
+The Diaries dataset is a collection of diary fragments included in the project [Italiani all’estero: i diari raccontano](https://www.idiariraccontano.org). These fragments are the diaries, letters and memoirs of Italian people who lived abroad between the beginning of the 19th century and the present day. 
 
 The data from their website was used by permission of the data creators, and was automatically collected using software written for the purpose. We are happy to provide access to the scraping software, but permission from the data creators needs to be sought first. However, we provide here the code to reformat the data into AV problems.
  
