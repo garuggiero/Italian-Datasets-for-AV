@@ -37,7 +37,7 @@ The folder names contain information about the type of data contained in them:
 
 - *400*, *1000*, *2000* or *3000* according to the number of words per problem
 
-- *mixed*, *females* or *males* refers to the gender of the authors of known and unknown text: if *mixed*, the authors can be male and females, if *females* both the authors are female, if *males* both the authors are male
+- *mixed*, *females* or *males* refers to the gender of the authors of known and unknown text: if *mixed*, the authors of the text pair can be male and females, if *females* both the authors are female, if *males* both the authors are male
 
 - *_downsized*: if added to the folder name, it means that the folders containing data from the same genre, topic and within the same authors' gender subset, correspond to data from the same pool of authors. For example, blogs_test_medicina10_400_mixed_downsized, blogs_test_medicina10_1000_mixed_downsized, blogs_test_medicina10_2000_mixed_downsized contain texts from the same authors as in blogs_test_medicina10_3000_mixed. The only factor changing is thus the number of words contained in the single documents.
 
@@ -46,7 +46,8 @@ Each folder contains a certain number of AV problems, labelled with a problem ID
 Since we experimented with texts of different length, the known and unknown documents can be made of 200, 500, 1 000 and 1 500 words each. The text is already tokenized. 
 
 Moreover, each folder contains 3 files:
-- trutx.txt, in which we store the gold labels (Y o N) associated to each problem ID
+- trutx.txt, in which we store the gold labels (Y o N) associated to each problem ID:
+
          ```
          IT001 N
          IT002 Y
@@ -54,7 +55,8 @@ Moreover, each folder contains 3 files:
          ...
          ```
          
-- INFO.csv links the problem ID to the text pair associated with it, the gender of the authors and the gold label
+- INFO.csv links the problem ID to the text pair associated with it, the gender of the authors and the gold label:
+
           ```
           IT001	("@ Naturalia ... hai poi fatto la versione con il detergente bio ? ...")	Female	Female	N
           ```
