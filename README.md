@@ -28,8 +28,8 @@ Usage: python3 make_Diaries_dataset.py --base_path BASE PATH --n N --gender GEND
 --base_path BASE PATH  .tsv file with the diaries corpus
 --n N                  number of words to be considered per each author/instance
 --gender GENDER        one of the gender subsets: mixed, females or males
---entities ENTITIES    *yes*, if text must include named entities, *no* if entities must be replaced by their labels
---downsize DOWNSIZE    *yes* if pool of authors needs to be downsized
+--entities ENTITIES    yes, if text must include named entities, *no* if entities must be replaced by their labels
+--downsize DOWNSIZE    yes if pool of authors needs to be downsized
 ```
 
 ## Structure
