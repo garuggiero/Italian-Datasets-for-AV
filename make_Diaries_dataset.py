@@ -21,15 +21,15 @@ def parse_arguments():
     '''Read arguments from a command line'''
     parser = argparse.ArgumentParser(description='Please add arguments')
     parser.add_argument("--base_path", metavar='PATH', required=True,
-        help='diaries folder containing the tsv file with the corpus')
+        help='folder containing the tsv file with the corpus')
     parser.add_argument("--n", type=int, required=True,
-        help='number of words to be considered per each author')
+        help='number of words to be considered per each author/instance')
     parser.add_argument("--gender", required=True,
         help='specify the gender setting: mixed, females, males')
     parser.add_argument("--entities", required=True,
-        help='specify if data needs to contain named entities or if they are replaced: yes if entities are present, no if entities must be replaced')
+        help='specify if data needs to contain named entities or if they are replaced: yes if entities must be present, no if entities must be replaced')
     parser.add_argument("--downsize", required=False,
-        help='specify if num of authors is downsized to the number of authors when considering 3000 words per author: it can only be yes')
+        help='specify if pool of authors is downsized to the same pool of authors of the 3000 words case: it can only be yes')
 
     args = parser.parse_args()
     return args
