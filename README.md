@@ -55,7 +55,7 @@ Moreover, each folder contains 3 files:
          ...
          ```
          
-- INFO.csv links the problem ID to the text pair associated with it, the gender of the authors and the gold label:
+- INFO.csv links the problem ID to the text pair associated with it, the gender of the authors of known and unknown text, and the gold label:
 
           ```
           IT001	("@ Naturalia ... hai poi fatto la versione con il detergente bio ? ...")	Female	Female	N
