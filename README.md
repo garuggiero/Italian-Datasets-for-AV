@@ -9,7 +9,7 @@ The datasets were used to run AV experiments using GLAD [1]. We investigated fou
 ## ForumFree  
 
 The ForumFree dataset is a subset of a bigger dataset compiled by Maslennikova et al.[2]. The original dataset was meant for Age Identification experiments. 
-Here, we reformat it according to the PAN 2015 format for AV [3]. The original dataset was a courtesy of the [Italian Institute of Computational Linguistics “Antonio Zampolli” (ILC) of Pisa](http://www.ilc.cnr.it/). 
+Here, we reformat it according to the PAN 2015 format for AV [3]. The original dataset was a courtesy of the [Italian Institute of Computational Linguistics “Antonio Zampolli” (ILC) of Pisa](http://www.ilc.cnr.it/). The reformatted dataset is contained in `AV_ForumFree.zip`.
 
 The ForumFree dataset contains forum comments taken from the [ForumFree](https://www.forumfree.it/) platform. 
 It covers two topics, *Medicina Estetica* (Aesthetic Medicine) and *Programmi Tv* (Tv-programmes). A third topic, *Mixedtopics*, is the union of Medicina Estetica and Programmi Tv.
@@ -18,7 +18,7 @@ It covers two topics, *Medicina Estetica* (Aesthetic Medicine) and *Programmi Tv
 
 The Diaries dataset is a collection of diary fragments included in the project [Italiani all’estero: i diari raccontano](https://www.idiariraccontano.org). These fragments are the diaries, letters and memoirs of Italian people who lived abroad between the beginning of the 19th century and the present day. 
 
-The data from their website was used by permission of the data creators, and was automatically collected using software written for the purpose. We are happy to provide access to the scraping software, but permission from the data creators needs to be sought first. However, we provide here the code to reformat the data into AV problems.
+The data from their website was used by permission of the data creators, and was automatically collected using software written for the purpose. We are happy to provide access to the scraping software, but permission from the data creators needs to be sought first. However, we provide here the code to reformat the data into AV problems, i.e. `make_Diaries_dataset.py`.
  
 
 ## Structure
