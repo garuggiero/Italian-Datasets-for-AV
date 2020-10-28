@@ -52,6 +52,7 @@ Moreover, each folder contains 3 files:
          IT002 Y
          IT003 N
          ...
+         ```
          
 - INFO.csv links the problem ID to the text pair associated with it, the gender of the authors and the gold label
           ```
