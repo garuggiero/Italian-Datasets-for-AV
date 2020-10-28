@@ -12,7 +12,7 @@ The ForumFree dataset is a subset of a bigger dataset compiled by Maslennikova e
 Here, we reformat it according to the PAN 2015 format for AV [3]. The original dataset was a courtesy of the [Italian Institute of Computational Linguistics “Antonio Zampolli” (ILC) of Pisa](http://www.ilc.cnr.it/). 
 
 The ForumFree dataset contains forum comments taken from the [ForumFree](https://www.forumfree.it/) platform. 
-It covers two topics, Medicina Estetica (Aesthetic Medicine) and Programmi Tv (Tv-programmes). A third topic, Mixedtopics, is simply the union of Medicina Estetica and Programmi Tv.
+It covers two topics, *Medicina Estetica* (Aesthetic Medicine) and *Programmi Tv* (Tv-programmes). A third topic, *Mixedtopics*, is the union of Medicina Estetica and Programmi Tv.
 
 ## Diaries 
 
@@ -25,15 +25,20 @@ The data from their website was used by permission of the data creators, and was
 
 The goal of the Authorship Verification task is to determine whether or not two documents are written by the same author. Therefore, the data is structured in problems (instances) made of two texts (known and unknown text) of equal length. 
 
-The structure of the ForumFree and Diaries datasets is exactly the same. While ForumFree is already available in the AV format, the Diaries dataset needs to be compiled. Further information about compiling this dataset is offered in the next section. 
+The structure of the ForumFree and Diaries datasets is exactly the same. While ForumFree is already available in the AV format, the Diaries dataset needs to be compiled. Further information about formatting this dataset is offered in the next section. 
 
 The folder names contain information about the type of data contained in them:
 
 - *blogs* if they contain forum posts,  *diaries* if they contain diary fragments
+
 - *train* or *test*, according to whether that subset is destined to be a training or a test set. Training sets contain 70% of the data, test sets contain the remaining 30%
+
 - *medicina10*,*tvprogrammes* or *mixedtopic* stands for the topic of the data contained, available only for the ForumFree dataset
+
 - *400*, *1000*, *2000* or *3000* according to the number of words per problem
+
 - *mixed*, *females* or *males* refers to the gender of the authors of known and unknown text
+
 - *_downsized*: if added to the folder name, it means that the folders containing data from the same genre, topic and within the same authors' gender subset, correspond to data from the same pool of authors. For example, blogs_test_medicina10_400_mixed_downsized, blogs_test_medicina10_1000_mixed_downsized, blogs_test_medicina10_2000_mixed_downsized contain texts from the same authors as in blogs_test_medicina10_3000_mixed. The only factor changing is thus the number of words contained in the single documents.
 
 Each folder contains a certain number of AV problems, labelled with a problem ID, which goes from IT001 to IT0...n. Each problem contains two .txt files, *known01.txt* and *unknown.txt*, representing the text pair. Rather than representing a single text, each of these documents contains a set of texts written by the same author.
