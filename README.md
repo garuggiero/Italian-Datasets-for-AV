@@ -31,9 +31,9 @@ The folder names contain information about the type of data contained in them:
 
 - *blogs* if they contain forum posts,  *diaries* if they contain diary fragments
 
-- *train* or *test*, according to whether that subset is destined to be a training or a test set. Training sets contain 70% of the data, test sets contain the remaining 30%
+- *train* or *test*, according to whether that subset is destined to be a training or a test set: training sets contain 70% of the data, test sets contain the remaining 30%
 
-- *medicina10*,*tvprogrammes* or *mixedtopic* stands for the topic of the data contained, available only for the ForumFree dataset
+- *medicina10*, *tvprogrammes* or *mixedtopic* stands for the topic of the data contained, available only for the ForumFree dataset
 
 - *400*, *1000*, *2000* or *3000* according to the number of words per problem
 
