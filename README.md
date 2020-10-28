@@ -2,7 +2,7 @@
 
 This repository contains the instructions to use and format two Italian datasets specifically designed for the Authroship Verification Task. The datasets were used to run AV experiments using GLAD (https://www.researchgate.net/profile/Simon_Suster/publication/291346207_GLAD_Groningen_Lightweight_Authorship_Detection/links/56a1413608ae24f62701f9c5.pdf). We investigated four dimensions: topic, length and genre of the texts and gender of the authors. Since the Diaries dataset does not contain any topic information, topic categories were only taken into account for the ForumFree dataset. 
 
-# ForumFree Dataset 
+# ForumFree  
 
 The ForumFree dataset is a subset of a bigger dataset compiled by Maslennikova et al. (2019) (http://ceur-ws.org/Vol-2481/paper43.pdf). 
 The original dataset was meant for Age Identification experiments. Here, we reformat it according to the PAN 2015 format for AV (https://pan.webis.de/clef15/pan15-web/authorship-verification.html). The original dataset was a courtesy of the Italian Institute of Computational Linguistics “Antonio Zampolli” (ILC) of Pisa (http://www.ilc.cnr.it/). 
@@ -10,7 +10,7 @@ The original dataset was meant for Age Identification experiments. Here, we refo
 The ForumFree dataset contains forum comments taken from the ForumFree platform (https://www.forumfree.it/). 
 It covers two topics, Medicina Estetica (Aesthetic Medicine) and Programmi Tv (Tv-programmes). A third topic, Mixedtopics, is simply the union of Medicina Estetica and Programmi Tv. Mixedtopics was created to run experiments where the known-unknown text pairs can be either same- or different-topic.
 
-# Diaries Dataset
+# Diaries 
 
 The Diaries dataset is a collection of diary fragments included in the project Italiani all’estero: i diari raccontano (Italians abroad: the diaries narrate) (https://www.idiariraccontano.org). These fragments are the diaries, letters and memoirs of Italian people who lived abroad between the beginning of the 19th century and the present day. 
 
