@@ -8,11 +8,13 @@ The datasets were used to run AV experiments using GLAD [1]. We investigated fou
 
 ## ForumFree  
 
+The ForumFree dataset contains forum comments taken from the [ForumFree](https://www.forumfree.it/) platform. 
+It covers two topics, *Medicina Estetica* (Aesthetic Medicine) and *Programmi Tv* (Tv-programmes). A third topic, *Mixedtopics*, is the union of Medicina Estetica and Programmi Tv.
+
 The ForumFree dataset is a subset of a bigger dataset compiled by Maslennikova et al.[2]. The original dataset was meant for Age Identification experiments. 
 Here, we reformat it according to the PAN 2015 format for AV [3]. The original dataset was a courtesy of the [Italian Institute of Computational Linguistics “Antonio Zampolli” (ILC) of Pisa](http://www.ilc.cnr.it/). The reformatted dataset is contained in `AV_ForumFree.zip`.
 
-The ForumFree dataset contains forum comments taken from the [ForumFree](https://www.forumfree.it/) platform. 
-It covers two topics, *Medicina Estetica* (Aesthetic Medicine) and *Programmi Tv* (Tv-programmes). A third topic, *Mixedtopics*, is the union of Medicina Estetica and Programmi Tv.
+
 
 ## Diaries 
 
